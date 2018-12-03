@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>transform_imu</name>
+  <version>0.1.0</version>
+  <description>transform_imu package</description>
+
+  <maintainer email="mizuno.naoki@rm.is.tohoku.ac.jp">Naoki Mizuno</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/naoki-mizuno/transform_imu</url>
+
+  <author>Naoki Mizuno</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+</package>
